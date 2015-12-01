@@ -11,7 +11,7 @@ speed = 60
 try:
   while True:
   # Defining sensors
-  left = pi2go.irLeftLine ()
+  left = pi2go.irLeftLine()
   right = pi2go.irRightLine()
     if left == right: # if both sensors are the same (either on or off)
       pi2go.forward(speed)
